@@ -1,0 +1,178 @@
+# depslib dependency file v1.0
+1429569626 source:c:\somnath\projects\chess\engines\vice\vice.c
+	"stdio.h"
+	"stdlib.h"
+	"defs.h"
+
+1429652046 c:\somnath\projects\chess\engines\vice\defs.h
+	"stdlib.h"
+
+1427836891 source:c:\somnath\projects\chess\engines\vice\init.c
+	"defs.h"
+	"stdlib.h"
+
+1425411329 source:c:\somnath\projects\chess\engines\vice\bitboards.c
+	"stdio.h"
+	"defs.h"
+
+1425414063 source:c:\somnath\projects\chess\engines\vice\display.c
+	"stdio.h"
+	"defs.h"
+
+1428964247 source:c:\somnath\projects\chess\engines\vice\test.c
+	"stdio.h"
+	"defs.h"
+
+1402418956 source:c:\somnath\projects\chess\engines\vice\hashkeys.c
+	"defs.h"
+	"stdio.h"
+
+1427837613 source:c:\somnath\projects\chess\engines\vice\board.c
+	"defs.h"
+	"stdio.h"
+
+1427916269 source:c:\somnath\projects\chess\engines\vice\data.c
+	"defs.h"
+
+1425345096 source:c:\somnath\projects\chess\engines\vice\attack.c
+	"defs.h"
+	"stdio.h"
+
+1427926070 source:c:\somnath\projects\chess\engines\vice\io.c
+	"defs.h"
+	"stdio.h"
+
+1427925291 source:c:\somnath\projects\chess\engines\vice\movegen.c
+	"defs.h"
+	"stdio.h"
+
+1424824669 source:c:\somnath\projects\chess\engines\vice\validate.c
+	"defs.h"
+
+1425341253 source:c:\somnath\projects\chess\engines\vice\makemove.c
+	"defs.h"
+	"stdio.h"
+
+1427917000 source:c:\somnath\projects\chess\engines\vice\perft.c
+	"defs.h"
+	"stdio.h"
+
+1429652073 source:c:\somnath\projects\chess\engines\vice\search.c
+	"defs.h"
+	"stdio.h"
+
+1429652261 source:c:\somnath\projects\chess\engines\vice\misc.c
+	"defs.h"
+	"stdio.h"
+	"windows.h"
+	"time.h"
+	"windows.h"
+	"sys/time.h"
+	"sys/select.h"
+	"unistd.h"
+	"string.h"
+
+1425604431 source:c:\somnath\projects\chess\engines\vice\pvtable.c
+	"defs.h"
+	"stdio.h"
+
+1426187786 source:c:\somnath\projects\chess\engines\vice\evaluate.c
+	"defs.h"
+	"stdio.h"
+
+1429571060 source:c:\somnath\projects\chess\engines\vice\uci.c
+	"stdio.h"
+	"defs.h"
+	"string.h"
+
+1429733085 source:c:\somnath\projects\chess\engines\sniper\attack.c
+	"defs.h"
+	"stdio.h"
+
+1456339679 c:\somnath\projects\chess\engines\sniper\defs.h
+	"stdlib.h"
+
+1429826156 source:c:\somnath\projects\chess\engines\sniper\bitboards.c
+	"stdio.h"
+	"defs.h"
+
+1429739444 source:c:\somnath\projects\chess\engines\sniper\board.c
+	"defs.h"
+	"stdio.h"
+
+1429739503 source:c:\somnath\projects\chess\engines\sniper\data.c
+	"defs.h"
+
+1429739522 source:c:\somnath\projects\chess\engines\sniper\display.c
+	"stdio.h"
+	"defs.h"
+
+1429739556 source:c:\somnath\projects\chess\engines\sniper\evaluate.c
+	"defs.h"
+	"stdio.h"
+
+1429886893 source:c:\somnath\projects\chess\engines\sniper\hashkeys.c
+	"defs.h"
+	"stdio.h"
+
+1429739597 source:c:\somnath\projects\chess\engines\sniper\init.c
+	"defs.h"
+	"stdlib.h"
+
+1429739739 source:c:\somnath\projects\chess\engines\sniper\io.c
+	"defs.h"
+	"stdio.h"
+
+1429739880 source:c:\somnath\projects\chess\engines\sniper\makemove.c
+	"defs.h"
+	"stdio.h"
+
+1429739913 source:c:\somnath\projects\chess\engines\sniper\misc.c
+	"defs.h"
+	"stdio.h"
+	"windows.h"
+	"time.h"
+	"windows.h"
+	"sys/time.h"
+	"sys/select.h"
+	"unistd.h"
+	"string.h"
+
+1427921691 source:c:\somnath\projects\chess\engines\sniper\movegen.c
+	"defs.h"
+	"stdio.h"
+
+1427913400 source:c:\somnath\projects\chess\engines\sniper\perft.c
+	"defs.h"
+	"stdio.h"
+
+1425600831 source:c:\somnath\projects\chess\engines\sniper\pvtable.c
+	"defs.h"
+	"stdio.h"
+
+1456345013 source:c:\somnath\projects\chess\engines\sniper\search.c
+	"defs.h"
+	"stdio.h"
+
+1429722167 source:c:\somnath\projects\chess\engines\sniper\test.c
+	"stdio.h"
+	"defs.h"
+
+1456345540 source:c:\somnath\projects\chess\engines\sniper\uci.c
+	"stdio.h"
+	"defs.h"
+	"string.h"
+
+1424821069 source:c:\somnath\projects\chess\engines\sniper\validate.c
+	"defs.h"
+
+1456345247 source:c:\somnath\projects\chess\engines\sniper\sniper.c
+	"stdio.h"
+	"stdlib.h"
+	"defs.h"
+
+1456341831 source:c:\somnath\projects\chess\engines\sniper\xboard.c
+	"stdio.h"
+	"defs.h"
+	"string.h"
+

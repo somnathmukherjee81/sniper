@@ -1,0 +1,24 @@
+FEN ::=  PiecePlacement Space SideToMove Space CastlingAbility Space EnPassantTargetSquare Space HalfmoveClock Space FullmoveCounter
+	   
+PiecePlacement ::= Ranki /*8*/'/'Ranki/*7*/'/'Ranki/*6*/'/'Ranki/*5*/'/'Ranki/*4*/'/'Ranki/*3*/'/'Ranki/*2*/'/'Ranki/*1*/
+Ranki ::= Digit17? Piece (Digit17? Piece)* Digit17? | '8'
+Piece ::= WhitePiece | BlackPiece
+Digit17 ::= '1' | '2' | '3' | '4' | '5' | '6' | '7'
+WhitePiece ::= 'P' | 'N' | 'B' | 'R' | 'Q' | 'K'
+BlackPiece ::= 'p' | 'n' | 'b' | 'r' | 'q' | 'k'
+
+SideToMove ::= 'w' | 'b'
+
+CastlingAbility ::= '-' | 'K'? 'Q'? 'k'? 'q'?
+
+EnPassantTargetSquare ::= '-' | EPSquare
+EPSquare   ::= FileLetter EPRank
+FileLetter ::= 'a' | 'b' | 'c' | 'd' | 'e' | 'f' | 'g' | 'h'
+EPRank     ::= '3' | '6'
+
+HalfmoveClock ::= Digit Digit*
+
+FullmoveCounter ::= Digit19 Digit*
+Digit19 ::= '1' | '2' | '3' | '4' | '5' | '6' | '7' | '8' | '9'
+Digit   ::= '0' | Digit19
+Space ::= ' '
